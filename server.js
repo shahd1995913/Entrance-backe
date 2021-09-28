@@ -17,7 +17,7 @@ const e = require('express');
 
 const PORT = process.env.PORT || 4041;
 
-mongoose.connect(MONGO, {
+mongoose.connect(rocess.env.MONGO, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
